@@ -1,0 +1,10 @@
+#WAP to check whther a no. is prime or not(1st)
+n =int(input("Enter the no. = "))
+c =0
+for i in range(1,n+1,1):
+    if n%i==0:
+        c=c+1
+if c==2:
+    print("prime no.")
+else:
+    print("not prime no.")

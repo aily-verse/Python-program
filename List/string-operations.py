@@ -1,0 +1,23 @@
+#WAP to implement string operations
+x=input("Enter the string = ")
+print(x.startswith('a'))
+print(x.endswith('a'))
+print(x.index('a'))
+for i in range(0,len(x),1):
+    if x[i]=='a':
+        print(x.index('a'),end=' ')
+y=input("Enter the string to be seached for = ")
+print(x.count(y))
+print(y.title())
+p=input("Enter the letter = ")
+print(p.isalpha())
+print(p.isalnum())
+print(p.isdigit()) 
+print(p.isnumeric())
+print(p.isupper())
+print(p.islower())
+print(p.isspace())
+x=input("Enter the 1st string = ")
+y=input("Enter the 2nd string = ")
+print(x.replace('a','e'))
+print(x.capitalize())
